@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+local_settings.py
+
+# Virtual environments
+venv/
+ENV/
+env/
+EE_venv/
+
+# VS Code
+.vscode/
+
+# Migrations
+earfull_engine/*/migrations/
+earfull_engine/*/migrations/*.pyc
+
+# Environment variables
+.env
+.env.*
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Other
+*.sqlite3
+*.db
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+
+# Test results
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest
+.pytest_cache/
+
+# Marshmallow
+*.marshal
+
+# Ignore site-packages
+EE_venv/Lib/site-packages/
