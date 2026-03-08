@@ -14,6 +14,7 @@ class UserSerializer(serializers.ModelSerializer):
         
 
 class RegisterSerializer(serializers.ModelSerializer):
+    password = serializers.CharField(write_only=True) # Removes password from API response
     class Meta:
         model = User
         fields = [

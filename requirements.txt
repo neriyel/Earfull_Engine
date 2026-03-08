@@ -2,3 +2,11 @@ django
 djangorestframework
 djangorestframework-simplejwt
 environs
+requests
+python-dotenv
+playwright
+pytest
+pytest-playwright
+pytest-django
+pytest-asyncio
+httpx
